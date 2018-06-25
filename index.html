@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Yanone+Kaffeesatz" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+
+        <h1>Let's Create an ID card!</h1>
+
+        First Name: <br> <input type="text" id="firstName"><br>
+
+        Last Name: <br> <input type="text" id="lastName"><br>
+
+        Age: <br> <input type="text" id="age"><br>
+
+        Phone Number: <br> <input type="text" id="phoneNumber"><br>
+
+        Address: <br> <input type="text" id="address"><br>
+
+
+        <button onclick="generateID()">Enter </button><br><br>
+
+        <div id="idCard">
+            <i class="fas fa-user-circle fa-5x"></i>
+
+            <p id="idCardName">Name</p>
+            <br><br><br>
+        <section>
+            <p id="idCardAge">Age: </p>
+            <p id="idCardPhoneNumber">Phone Number: </p>
+            <p id="idCardAddress">Address: </p>
+        </section>
+
+        </div>
+
+
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
